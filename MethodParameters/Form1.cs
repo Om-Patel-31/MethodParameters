@@ -25,8 +25,7 @@ namespace MethodParameters
             Add(num1, num2);
 
             //get value for question 2 and send it to the CanVote method
-            int age = Convert.ToInt16(ageInput.Text);
-            CanVote(age);
+            int age = Convert.ToInt16(ageInput.Text);          
 
             //get values for question 3 and send them to the WelcomeUser method
 
@@ -65,10 +64,7 @@ namespace MethodParameters
         /// Input: 15
         /// You are not eligible to vote
 
-        public void CanVote(int voterAge)
-        {
 
-        }
 
         /// 3. Create a method called WelcomeUser, that accepts 2
         /// string parameters, name and pin. If the PIN is 1234
